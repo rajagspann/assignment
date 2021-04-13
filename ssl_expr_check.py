@@ -38,7 +38,7 @@ map(scheck, lines)
 print('\n')
 print('\n')
 
-print "-----Certificate details with sort-----"
+print "-----Certificate details sorted by Expiry Date-----"
 print "=========================================="
 
 #for k in sorted(d.items(), key = lambda x:datetime.datetime.strptime(x[0], '%d-%m-%Y'), reverse=True):
