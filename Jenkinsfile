@@ -6,7 +6,10 @@ pipeline{
                 git branch: 'main', url: 'https://github.com/rajagspann/assignment'
             }
         }
+        stage("current folder"){
+            steps{
+                sh "pwd > cwrd"
+            }
+        }
     }
 }
-
-
