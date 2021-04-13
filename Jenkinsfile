@@ -32,16 +32,6 @@ pipeline{
                 }
             }
         }
-        stage ("Checkout SCM") {
-            steps {
-                script {
-                    checkout scm
-                    result = sh (script: "git log -1 | grep '.*\\[ci skip\\].*'", returnStatus: true) 
-                    if (result == 0) {
-                       error ("'ci skip' spotted in git commit. Aborting.")
-                    }
-                }
-            }
-        }
     }
 }
+
