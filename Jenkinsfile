@@ -8,7 +8,7 @@ pipeline{
         }
         stage("Executing script to get the SSL Cert details"){
             steps{
-                sh "./ssl_expr_check.py > sorted_ssl_details.txt"
+                sh "./ssl_expr_check.py > sorted_ssl_details"
             }
         }
         stage("Open the ssl file"){
