@@ -2,23 +2,27 @@
 ==========================================
 apple.com
 Expires ON:- 2021-07-03 12:00:00
-Remaining:- 80 days, 21:59:34.536599
+Remaining:- 80 days, 21:45:04.112288
 -----------------------------------------------
 google.com
 Expires ON:- 2021-06-08 19:28:06
-Remaining:- 56 days, 5:27:40.484327
+Remaining:- 56 days, 5:13:10.085464
 -----------------------------------------------
 facebook.com
 Expires ON:- 2021-05-10 23:59:59
-Remaining:- 27 days, 9:59:33.465155
+Remaining:- 27 days, 9:45:03.068109
 -----------------------------------------------
 netflix.com
 Expires ON:- 2022-01-13 12:00:00
-Remaining:- 274 days, 21:59:34.443168
+Remaining:- 274 days, 21:45:04.045792
 -----------------------------------------------
 yahoo.com
 Expires ON:- 2021-08-24 23:59:59
-Remaining:- 133 days, 9:59:33.341285
+Remaining:- 133 days, 9:45:02.937755
+-----------------------------------------------
+twitter.com
+Expires ON:- 2022-01-11 23:59:59
+Remaining:- 273 days, 9:45:02.861568
 -----------------------------------------------
 
 
@@ -27,6 +31,7 @@ Remaining:- 133 days, 9:59:33.341285
 -----Certificate details with sort-----
 ==========================================
 ('netflix.com', datetime.datetime(2022, 1, 13, 12, 0))
+('twitter.com', datetime.datetime(2022, 1, 11, 23, 59, 59))
 ('yahoo.com', datetime.datetime(2021, 8, 24, 23, 59, 59))
 ('apple.com', datetime.datetime(2021, 7, 3, 12, 0))
 ('google.com', datetime.datetime(2021, 6, 8, 19, 28, 6))
